@@ -2,7 +2,7 @@ const meow = require("meow");
 const Figma = require("figma-js");
 const process = require("process");
 const { setFigmaToken, watchFigmaFile } = require("unicon");
-const config = require("./figma.config.js");
+const config = require("./figments.config.js");
 const { outputFileSync } = require("fs-extra");
 
 const cli = meow(
