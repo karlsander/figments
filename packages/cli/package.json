@@ -1,0 +1,21 @@
+{
+  "name": "@figments/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figma-js": "^1.8.4",
+    "fs-extra": "^8.1.0",
+    "meow": "^5.0.0",
+    "unicon": "^0.2.1"
+  },
+  "bin": {
+    "figments": "bin/figments"
+  }
+}
